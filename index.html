@@ -73,6 +73,7 @@
 </nav>
 
 
+
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
@@ -81,23 +82,32 @@
           <h1 class="title is-1 publication-title">Motion Flow Matching for Human Motion Synthesis and Editing</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://keunhong.com">Vincent Tao Hu</a><sup>1</sup>,</span>
+              <a href="https://taohu.me">Vincent Tao Hu</a><sup>1,2</sup>,</span>
             <span class="author-block">
-              <a href="https://utkarshsinha.com">xxx</a><sup>2</sup>,</span>
+              <a href="https://scholar.google.com/citations?user=2y3cf-sAAAAJ&hl=zh-CN">Wenzhe Yin</a><sup>2</sup>,</span>
             <span class="author-block">
-              <a href="https://jonbarron.info">xx</a><sup>2</sup>,
+              <a href="https://scholar.google.de/citations?user=a5JMcsgAAAAJ&hl=en">Pingchuan Ma</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="http://sofienbouaziz.com">xx</a><sup>2</sup>,
+              <a href="https://yunlu-chen.github.io/">Yunlu Chen</a><sup>3</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.danbgoldman.com">xx</a><sup>2</sup>,
+              <a href="https://basurafernando.github.io/">Basura Fernando</a><sup>4</sup>,
             </span>
             <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">xx</a><sup>1,2</sup>,
+              <a href="https://yukimasano.github.io/">Yuki M. Asano</a><sup>2</sup>,
             </span>
             <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">xxx</a><sup>2</sup>
+              <a href="https://www.egavves.com/">Efstratios Gavves</a><sup>2</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://staff.fnwi.uva.nl/p.s.m.mettes/">Pascal Mettes</a><sup>2</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://ommer-lab.com/">Björn Ommer</a><sup>1</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://www.ceessnoek.info/">Cees G.M. Snoek</a><sup>2</sup>
             </span>
           </div>
 
@@ -110,15 +120,85 @@
 
 
           <div class="column has-text-centered">
-            
-
-          </div>
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2312.08895"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2312.08895"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/google/nerfies"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code(Coming Soon)</span>
+                  </a>
+              </span>
+              
+              
+            </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Human motion synthesis is a fundamental task in computer animation. Recent methods based on diffusion models or GPT structure demonstrate commendable performance but exhibit drawbacks in terms of slow sampling speeds and error accumulation. 
+          </p>
+          <p>
+            In this paper, we propose <i>"Motion Flow Matching"</i>, a novel generative model designed for human motion generation featuring efficient sampling and effectiveness in motion editing applications. 
+            Our method reduces the sampling complexity from thousand steps in previous diffusion models to just ten steps, while achieving comparable performance in text-to-motion and action-to-motion generation benchmarks.
+             Noticeably, our approach establishes a new state-of-the-art Fréchet Inception Distance on the KIT-ML dataset. 
+             What is more, we tailor a straightforward motion editing paradigm named <i>"sampling trajectory rewriting"</i> leveraging the ODE-style generative models and apply it to various editing scenarios including motion prediction,
+              motion in-between prediction, motion interpolation, and upper-body editing. 
+              Our code will be released.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!--
+   
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+   
+  -->
+  </div>
+</section>
 
 
 
